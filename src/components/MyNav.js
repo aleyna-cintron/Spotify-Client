@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { BsSpotify } from 'react-icons/bs'
 import { FaSearch } from 'react-icons/fa'
 
