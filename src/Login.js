@@ -3,7 +3,7 @@ import MyNav from './components/MyNav'
 import { BsSpotify } from 'react-icons/bs'
 // SPOTIFY API AUTH URL
 const client_id = process.env.REACT_APP_CLIENT_ID
-const redirect_uri = 'https://spotify-mern-api-106e03b8fd0b.herokuapp.com/'
+const redirect_uri = 'https://main--spotify-mern-app.netlify.app/'
 const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=code&redirect_uri=${redirect_uri}&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state`
 
 function Login({code}) {
