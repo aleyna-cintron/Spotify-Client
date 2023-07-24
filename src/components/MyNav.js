@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { BsSpotify } from 'react-icons/bs'
 import { FaSearch } from 'react-icons/fa'
 

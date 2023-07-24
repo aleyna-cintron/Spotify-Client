@@ -18,7 +18,7 @@ function Dashboard({code}) {
         if(e.key === 'Enter'){
             if(!search) return
             else{
-            axios.post('http://localhost:3001/search', {
+            axios.post('https://spotify-mern-api-106e03b8fd0b.herokuapp.com/search', {
             search
             }).then (res => {
                 console.log(res.data)
