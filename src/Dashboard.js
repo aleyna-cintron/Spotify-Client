@@ -126,16 +126,3 @@ function Dashboard({code}) {
 }
 
 export default Dashboard;
-
-const styles = {
-    image: {
-        height: '100%',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        display: 'grid',
-        placeItems: 'center',
-        height: '16rem',
-        width: '16rem'
-    }
-}
