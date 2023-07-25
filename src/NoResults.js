@@ -15,9 +15,3 @@ function NoResults() {
 }
 
 export default NoResults;
-
-const styles = {
-    p: {
-        padding:'1rem'
-    }
-}
